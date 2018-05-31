@@ -55,9 +55,9 @@ def all_winter_holiday_supplies(holiday_hash)
       holiday.each do |day, supplies|
         winterSupplies << supplies
       end
+  return winterSupplies
     end
   end
-  return winterSupplies
 end
 
 def all_supplies_in_holidays(holiday_hash)
