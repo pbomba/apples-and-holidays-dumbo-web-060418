@@ -93,9 +93,9 @@ def all_holidays_with_bbq(holiday_hash)
         bbqArray << day
       end
     end
-    return bbqArray
-  end
 
+  end
+    return bbqArray
 end
 
 
